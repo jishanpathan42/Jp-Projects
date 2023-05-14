@@ -68,7 +68,7 @@ const SignInPage = () => {
   return (
     <>
       <div className="flex sm:flex-col md:flex-col flex-row font-montserrat sm:gap-5 md:gap-5 items-center mx-auto w-full">
-        <div className="bg-black_900 flex flex-col items-center justify-start p-[171px] md:px-5 w-auto md:w-full">
+        <div className="bg-black_900 flex-col flex md:hidden items-center justify-start p-[171px] md:px-5 w-auto md:w-full">
           <Text
             className="mb-[301px] mt-[292px] text-left text-white_A700 w-auto"
             as="h1"
@@ -174,10 +174,8 @@ const SignInPage = () => {
                     <Text className="">Forgot password?</Text>
                   </a>
                   <div
-                    className="bg-cover bg-no-repeat flex flex-col font-montserrat h-10 items-center justify-end mt-[17px] p-[9px] w-full"
-                    style={{
-                      backgroundImage: "url('images/img_buttonsignin.svg')",
-                    }}
+                    className="bg-cover bg-no-repeat flex flex-col rounded-xl bg-black font-montserrat h-10 items-center justify-end mt-[17px] p-[9px] w-full"
+                  
                     onClick={handleSubmit}
                   >
                     <a

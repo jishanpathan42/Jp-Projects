@@ -200,10 +200,8 @@ const SignInPage = () => {
                     variant="FillGray200"
                   ></Input>
                   <div
-                    className="bg-cover bg-no-repeat flex flex-col font-montserrat h-10 items-center justify-end mt-[17px] p-[9px] w-full"
-                    style={{
-                      backgroundImage: "url('images/img_buttonsignin.svg')",
-                    }}
+                    className="bg-cover bg-no-repeat flex flex-col rounded-xl bg-black font-montserrat h-10 items-center justify-end mt-[17px] p-[9px] w-full"
+                  
                     onClick={handleSubmit}
                   >
                     <a
